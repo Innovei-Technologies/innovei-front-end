@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 import { ReactComponent as Logo } from "../res/logo.svg";
 import { ReactComponent as LogoSmall } from "../res/logo_small.svg";
@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <Fragment>
       <div className="absolute left-0 top-0 w-full h-16 bg-gray-800">
-        <div className="pt-2 flex flex-row content-center justify-between">
+        <div className="w-15/16 mx-auto pt-2 flex flex-row content-center justify-between">
           <div className="flex flex-row">
             <Link to="/">
               <Logo className="h-12 mx-5 hidden lg:block" />

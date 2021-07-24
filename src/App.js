@@ -13,13 +13,14 @@ import ContactUs from "./components/pages/contactUs";
 import PageNotFound from "./components/pages/pageNotFound";
 
 import Navbar from "./components/navbar";
+//eslint-disable-next-line
 import Footer from "./components/footer";
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <div className="pt-20 px-6">
+      <div className="mt-16 relative pb-16">
         <Switch>
           <Route path="/about">
             <About />
