@@ -33,13 +33,14 @@ function Home() {
                   </span>{" "}
                   needs.
                 </p>
-                <Link to="/contact-us">
-                  <button class="w-1/2 md:w-1/4 border border-gray-200 rounded-md hover:bg-gray-200">
+
+                <button class="w-1/2 md:w-1/4 border border-gray-200 rounded-md hover:bg-gray-200">
+                  <Link to="/contact-us">
                     <h3 class="py-4 font-semibold text-white text-base hover:text-gray-800">
                       Get Started
                     </h3>
-                  </button>
-                </Link>
+                  </Link>
+                </button>
               </div>
             </div>
             <div class="flex-1 my-auto md:my-auto">
