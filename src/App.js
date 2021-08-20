@@ -20,28 +20,31 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <div className="mt-16 relative pb-16">
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/business-services">
-            <BusinessServices />
-          </Route>
-          <Route path="/government-services">
-            <GovernmentServices />
-          </Route>
-          <Route path="/contact-us">
-            <ContactUs />
-          </Route>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/404">
-            <PageNotFound />
-          </Route>
-          <Redirect from="*" to="/404" />
-        </Switch>
+      <div className="relative z-0">
+        <div className="-mt-16 pt-16 -mb-16 min-h-screen">
+          <Switch>
+            <Route path="/about">
+              <About />
+            </Route>
+            <Route path="/business-services">
+              <BusinessServices />
+            </Route>
+            <Route path="/government-services">
+              <GovernmentServices />
+            </Route>
+            <Route path="/contact-us">
+              <ContactUs />
+            </Route>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/404">
+              <PageNotFound />
+            </Route>
+            <Redirect from="*" to="/404" />
+          </Switch>
+        </div>
+
         <Footer />
       </div>
     </Router>

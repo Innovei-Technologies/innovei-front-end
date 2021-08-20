@@ -18,7 +18,7 @@ function Navbar() {
 
   return (
     <Fragment>
-      <div className="absolute left-0 top-0 w-full h-16 bg-gray-800">
+      <div className="relative z-50 w-full h-16 bg-gray-800">
         <div className="w-15/16 mx-auto pt-2 flex flex-row content-center justify-between">
           <div className="flex flex-row">
             <Link to="/">
@@ -77,7 +77,7 @@ function Navbar() {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden w-full absolute top-16 right-0 h-96 bg-gray-700">
+        <div className="md:hidden w-full relative z-50 top-16 right-0 -mb-96 h-96 bg-gray-700">
           <div className="flex flex-col justify-between">
             <div className="flex flex-col mt-8">
               <button
