@@ -77,7 +77,7 @@ function Navbar() {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden w-full relative z-50 top-16 right-0 -mb-96 h-96 bg-gray-700">
+        <div className="md:hidden w-full relative z-50 -mb-96 h-96 bg-gray-700">
           <div className="flex flex-col justify-between">
             <div className="flex flex-col mt-8">
               <button
