@@ -2,7 +2,7 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-import bannerImage from "../../res/banner_image.svg";
+import bannerImage from "../../res/banner_image.png";
 import warehousingImage from "../../res/warehousing.jpg";
 import customerServiceImage from "../../res/customer_service.jpg";
 import repairImage from "../../res/repair.jpg";

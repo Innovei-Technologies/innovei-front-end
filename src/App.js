@@ -7,8 +7,7 @@ import {
 } from "react-router-dom";
 import Home from "./components/pages/home";
 import About from "./components/pages/about.js";
-import GovernmentServices from "./components/pages/governmentServices";
-import BusinessServices from "./components/pages/businessServices";
+import Services from "./components/pages/services";
 import ContactUs from "./components/pages/contactUs";
 import PageNotFound from "./components/pages/pageNotFound";
 
@@ -26,11 +25,8 @@ function App() {
             <Route path="/about">
               <About />
             </Route>
-            <Route path="/business-services">
-              <BusinessServices />
-            </Route>
-            <Route path="/government-services">
-              <GovernmentServices />
+            <Route path="/services">
+              <Services />
             </Route>
             <Route path="/contact-us">
               <ContactUs />

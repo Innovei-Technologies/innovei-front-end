@@ -39,22 +39,11 @@ function Navbar() {
               <button
                 className={
                   "rounded-md my-2 focus:outline-none mx-4 " +
-                  buttonStyle("business-services")
+                  buttonStyle("services")
                 }
               >
-                <Link to="/business-services">
-                  <h4 className="mx-2 font-sm">Business Services</h4>
-                </Link>
-              </button>
-
-              <button
-                className={
-                  "rounded-md my-2 focus:outline-none mx-4 " +
-                  buttonStyle("government-services")
-                }
-              >
-                <Link to="/government-services">
-                  <h4 className="mx-2 font-sm">Government Services</h4>
+                <Link to="/services">
+                  <h4 className="mx-2 font-sm">Services</h4>
                 </Link>
               </button>
             </div>
@@ -96,19 +85,8 @@ function Navbar() {
                   buttonStyle("business-services")
                 }
               >
-                <Link to="/business-services">
-                  <h4 className="mx-2 font-sm">Business Services</h4>
-                </Link>
-              </button>
-
-              <button
-                className={
-                  "rounded-md my-2 py-4 focus:outline-none mx-4 " +
-                  buttonStyle("government-services")
-                }
-              >
-                <Link to="/government-services">
-                  <h4 className="mx-2 font-sm">Government Services</h4>
+                <Link to="/services">
+                  <h4 className="mx-2 font-sm">Services</h4>
                 </Link>
               </button>
             </div>
