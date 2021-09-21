@@ -46,7 +46,7 @@ function Home() {
             <div class="flex-1 my-auto md:my-auto">
               <img
                 src={bannerImage}
-                class="pt-16 md:pt-0 px-16 2xl:px-24 md:px-0 lg:px-12 select-none"
+                class="pt-16 md:pt-0 px-4 2xl:px-24 md:px-0 lg:px-12 select-none"
                 alt="main banner"
               />
             </div>
