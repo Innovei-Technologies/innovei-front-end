@@ -9,11 +9,11 @@ function ConstactUs() {
     <Fragment>
       <div className="w-15/16 p-10 mx-auto bg-gray-800 rounded-3xl mt-10">
         <div className="flex flex-col lg:flex-row">
-          <div className="flex-1 my-auto mx-10">
-            <h1 className=" text-gray-50 font-bold text-6xl mb-10">
+          <div className="flex-1 my-auto mx-1 md:mx-10">
+            <h1 className=" text-gray-50 font-bold text-5xl md:text-6xl mb-10">
               Get in Touch
             </h1>
-            <p className=" text-gray-300 font-light text-lg mb-16 mr-20">
+            <p className=" text-gray-300 font-light text-lg mb-16 mr-4 md:mr-20">
               Want to get in touch? We'd love to hear from you. Here's how you
               can reach us.{" "}
             </p>
@@ -24,7 +24,7 @@ function ConstactUs() {
         </div>
       </div>
       <div className="-mt-24 w-14/16 flex flex-col lg:flex-row mx-auto">
-        <div className="flex-1 bg-gray-200 mx-12 pt-10 rounded-lg mb-10 lg:mb-0">
+        <div className="flex-1 bg-gray-200 md:mx-12 pt-10 rounded-lg mb-10 lg:mb-0">
           <img src={phoneImage} className="w-2/16 mx-auto" alt="phone" />
           <h1 className="text-center font-medium text-2xl pb-6">
             Talk to Sales{" "}
@@ -39,7 +39,7 @@ function ConstactUs() {
             </p>
           </div>
         </div>
-        <div className="flex-1 bg-gray-200 mx-12 pt-10 rounded-lg mb-10 lg:mb-0">
+        <div className="flex-1 bg-gray-200 md:mx-12 pt-10 rounded-lg mb-10 lg:mb-0">
           <img src={emailImage} className="w-2/16 mx-auto" alt="phone" />
           <h1 className="text-center font-medium text-2xl pb-6">
             Contact our Team{" "}
