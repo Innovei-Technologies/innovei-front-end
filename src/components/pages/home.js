@@ -75,7 +75,10 @@ function Home() {
                 <p class="font-normal text-lg text-gray-600 mb-5">
                   Coordinate materials management with ease. Innovei ensures
                   your merchandise is stored and protected at the lowest cost
-                  possible. Track your units in detail in real time.
+                  possible.
+                  {
+                    //Track your units in detail in real time.
+                  }
                 </p>
                 <Link to="/404">
                   <h3 class="font-medium text-lg text-gray-900 underline">
@@ -101,7 +104,7 @@ function Home() {
                 <p class="font-normal text-lg text-gray-600 mb-5">
                   Innovei gives you a dedicated support team focused on your
                   customers. Get quick response times, high SLA %, and a support
-                  liaison that acts on your behalf.
+                  team that acts on your behalf.
                 </p>
                 <Link to="/404">
                   <h3 class="font-medium text-lg text-gray-900 underline">
@@ -126,7 +129,11 @@ function Home() {
                 </h2>
                 <p class="font-normal text-lg text-gray-600 mb-5">
                   Operate more efficiently by relying on a single source to
-                  manage repair, refurb, and rework. Track repairs in real time.
+                  manage repair, refurb, and rework. Innovei ensures low
+                  turnaround time and low high repair satisfaction.{" "}
+                  {
+                    //Track repairs in real time.
+                  }
                 </p>
                 <Link to="/404">
                   <h3 class="font-medium text-lg text-gray-900 underline">
@@ -138,7 +145,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div class="w-15/16 mx-auto pb-10">
+      <div class="w-15/16 mx-auto">
         <div class="md:ml-10">
           <h1 class="text-gray-800 pl-10 md:pl-0 font-bold text-5xl pb-10 pt-20">
             Ship Anywhere with Ease

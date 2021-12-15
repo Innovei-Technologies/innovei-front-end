@@ -20,7 +20,7 @@ function App() {
     <Router>
       <Navbar />
       <div className="relative z-0">
-        <div className="-mt-16 pt-16 -mb-16 min-h-screen">
+        <div className="-mt-16 pt-16 -mb-16 pb-28 min-h-screen">
           <Switch>
             <Route path="/about">
               <About />
