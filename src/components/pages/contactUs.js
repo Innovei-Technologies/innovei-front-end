@@ -23,8 +23,8 @@ function ConstactUs() {
           </div>
         </div>
       </div>
-      <div className="-mt-24 w-14/16 flex flex-row mx-auto">
-        <div className="flex-1 bg-gray-200 mx-12 pt-10 rounded-lg">
+      <div className="-mt-24 w-14/16 flex flex-col lg:flex-row mx-auto">
+        <div className="flex-1 bg-gray-200 mx-12 pt-10 rounded-lg mb-10 lg:mb-0">
           <img src={phoneImage} className="w-2/16 mx-auto" alt="phone" />
           <h1 className="text-center font-medium text-2xl pb-6">
             Talk to Sales{" "}
@@ -39,7 +39,7 @@ function ConstactUs() {
             </p>
           </div>
         </div>
-        <div className="flex-1 bg-gray-200 mx-12 pt-10 rounded-lg">
+        <div className="flex-1 bg-gray-200 mx-12 pt-10 rounded-lg mb-10 lg:mb-0">
           <img src={emailImage} className="w-2/16 mx-auto" alt="phone" />
           <h1 className="text-center font-medium text-2xl pb-6">
             Contact our Team{" "}
