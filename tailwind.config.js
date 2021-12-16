@@ -43,6 +43,7 @@ module.exports = {
       height: {
         192: 192,
       },
+      margin: { "-88": "-88 px" },
     },
   },
   variants: {
