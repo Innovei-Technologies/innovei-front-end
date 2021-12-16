@@ -19,7 +19,7 @@ function Navbar() {
   return (
     <Fragment>
       <div className="relative z-50 w-full h-16 bg-gray-800">
-        <div className="w-15/16 mx-auto pt-2 flex flex-row content-center justify-between">
+        <div className="w-15/16 2xl:w-13/16 mx-auto pt-2 flex flex-row content-center justify-between">
           <div className="flex flex-row">
             <Link to="/">
               <Logo className="h-12 mx-5 hidden lg:block" />

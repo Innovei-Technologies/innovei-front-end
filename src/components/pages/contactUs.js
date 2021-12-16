@@ -7,7 +7,7 @@ import emailImage from "../../res/email.svg";
 function ConstactUs() {
   return (
     <Fragment>
-      <div className="w-15/16 p-10 mx-auto bg-gray-800 rounded-3xl mt-10">
+      <div className="w-15/16 2xl:w-13/16 p-10 mx-auto bg-gray-800 rounded-3xl mt-10">
         <div className="flex flex-col lg:flex-row">
           <div className="flex-1 my-auto mx-1 md:mx-10">
             <h1 className=" text-gray-50 font-bold text-5xl md:text-6xl mb-10">
@@ -23,9 +23,13 @@ function ConstactUs() {
           </div>
         </div>
       </div>
-      <div className="-mt-24 w-14/16 flex flex-col lg:flex-row mx-auto">
+      <div className="-mt-24 w-14/16 2xl:w-12/16 flex flex-col lg:flex-row mx-auto">
         <div className="flex-1 bg-gray-200 md:mx-12 pt-10 rounded-lg mb-10 lg:mb-0">
-          <img src={phoneImage} className="w-2/16 mx-auto" alt="phone" />
+          <img
+            src={phoneImage}
+            className="w-2/16 2xl:w-1/16 mx-auto"
+            alt="phone"
+          />
           <h1 className="text-center font-medium text-2xl pb-6">
             Talk to Sales{" "}
           </h1>
@@ -40,7 +44,11 @@ function ConstactUs() {
           </div>
         </div>
         <div className="flex-1 bg-gray-200 md:mx-12 pt-10 rounded-lg mb-10 lg:mb-0">
-          <img src={emailImage} className="w-2/16 mx-auto" alt="phone" />
+          <img
+            src={emailImage}
+            className="w-2/16 2xl:w-1/16 mx-auto"
+            alt="phone"
+          />
           <h1 className="text-center font-medium text-2xl pb-6">
             Contact our Team{" "}
           </h1>

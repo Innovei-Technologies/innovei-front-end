@@ -12,11 +12,11 @@ function Home() {
   return (
     <div>
       <div className="md:h-screen pt-10">
-        <div class="md:h-5/6 bg-gray-800 w-14/16 md:w-15/16 rounded-3xl mx-auto mb-24">
+        <div class="md:h-5/6  bg-gray-800 w-14/16 md:w-15/16 2xl:w-13/16 rounded-3xl mx-auto mb-24">
           <div class="flex flex-col-reverse md:flex-row h-full">
             <div class="flex-1 h-full">
               <div class="mt-16 mb-16 md:mt-0 my-auto flex flex-col justify-center h-full ml-10 mr-10 xl:ml-16 xl:mr-16">
-                <h1 class=" text-gray-50 font-bold text-6xl mb-16">
+                <h1 class=" text-gray-50 font-bold text-4xl md:text-6xl mb-16">
                   Logistics Made Easy
                 </h1>
                 <p class=" text-gray-300 font-light text-lg mb-16">
@@ -54,14 +54,14 @@ function Home() {
         </div>
       </div>
       <div class="w-screen bg-gray-100">
-        <div class="w-15/16 mx-auto md:pl-10 pb-10">
+        <div class="w-15/16 2xl:w-13/16 mx-auto md:pl-10 pb-10">
           <h1 class="text-gray-800 pl-10 md:pl-0 font-bold text-5xl pb-10 pt-20">
             Powering Smarter Descisions
           </h1>
           <div class="flex flex-col md:flex-row pb-16">
             <div class="flex-1">
               <img
-                class="px-10 pb-5 md:pb-0"
+                class="px-10 2xl:px-20 pb-5 md:pb-0"
                 src={warehousingImage}
                 alt="warehouse"
               ></img>
@@ -91,7 +91,7 @@ function Home() {
           <div class="flex flex-col md:flex-row pb-10">
             <div class="flex-1">
               <img
-                class="px-10 pb-5 md:pb-0"
+                class="px-10 2xl:px-20 pb-5 md:pb-0"
                 src={customerServiceImage}
                 alt="customer service"
               ></img>
@@ -117,7 +117,7 @@ function Home() {
           <div class="flex flex-col md:flex-row">
             <div class="flex-1">
               <img
-                class="px-10 pb-5 md:pb-0"
+                class="px-10 2xl:px-20 pb-5 md:pb-0"
                 src={repairImage}
                 alt="repair"
               ></img>
@@ -145,7 +145,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div class="w-15/16 mx-auto">
+      <div class="w-15/16 2xl:w-13/16 mx-auto">
         <div class="md:ml-10">
           <h1 class="text-gray-800 pl-10 md:pl-0 font-bold text-5xl pb-10 pt-20">
             Ship Anywhere with Ease
